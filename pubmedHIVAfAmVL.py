@@ -1,6 +1,7 @@
 #Pubmed search for articles on HIV in African American women
 import numpy as np
 import pandas as pd
+import pymed
 from pymed import PubMed
 pubmed = PubMed(tool="PubMedSearcher", email="myemail@ccc.com")
 
