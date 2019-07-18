@@ -3,7 +3,8 @@ import numpy as np
 import pandas as pd
 import pymed
 from pymed import PubMed
-pubmed = PubMed(tool="PubMedSearcher", email="myemail@ccc.com")
+
+pubmed = PubMed(tool="PubMedSearcher", email="myemail@xxx.com")
 
 search_term = "HIV Viral Load African America" #place search terms in quotes
 results = pubmed.query(search_term, max_results=500)
