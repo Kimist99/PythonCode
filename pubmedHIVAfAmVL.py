@@ -6,7 +6,7 @@ from pymed import PubMed
 
 pubmed = PubMed(tool="PubMedSearcher", email="myemail@xxx.com")
 
-search_term = "HIV Viral Load African America" #place search terms in quotes
+search_term = "HIV Viral Load African American" #place search terms in quotes
 results = pubmed.query(search_term, max_results=500)
 articleList = []
 articleInfo = []
