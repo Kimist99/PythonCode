@@ -37,5 +37,5 @@ for article in articleList:
 # Create pandas dataframe dict list
 articlesPD = pd.DataFrame.from_dict(articleInfo)
 df = articlesPD
-PUBMEDcsv = df.to_csv (r'C:\Users\Cash America\Desktop\export_dataframe.csv', index = None, header=True) 
+PUBMEDcsv = df.to_csv (r'C:\Users\Desktop\export_dataframe.csv', index = None, header=True) 
 
