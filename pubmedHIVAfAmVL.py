@@ -22,8 +22,14 @@ for article in articleList:
     # Append article info to dictionary with fields you wish to collect
     articleInfo.append({u'pubmed_id':pubmedId,
                        u'title':article['title'],
+                       u'keywords':article['keywords'],
                        u'journal':article['journal'],
                        u'abstract':article['abstract'],
+                      # u'conclusions':article['conclusions'],
+                      # u'methods':article['methods'],
+                      # u'results': article['results'],
+                      # u'copyrights':article['copyrights'],
+                      # u'doi':article['doi'],
                        u'publication_date':article['publication_date'], 
                        u'authors':article['authors']})
 
